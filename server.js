@@ -7,7 +7,6 @@ var server = require('http').createServer()
 
 app.use(express.static(__dirname + '/'));
 
-var connections = [];
 var nReady = 0;
 var state = 0;
 
